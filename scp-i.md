@@ -100,14 +100,11 @@ ls -l /home/ubuntu
 ---
 
 ## 📊 Command Flow Diagram
-
-```text
-+----------------+   SCP (Secure Copy)    +-------------+
-|  Local Machine |  ----------------->    |  AWS EC2    |                                                                                                                                                 |                                            Instance   |                                                    |               Using .pem authentication | 
-| Linux.pub File |                        | /home/ubuntu| +----------------+                        +-------------+
-```
-
----
++------------------+        SCP (Secure Copy)        +----------------------+
+|  Local Machine   |  ----------------------------->  |  AWS EC2 Instance    |
+|                  |     Using .pem authentication    |                      |
+|  Linux.pub File  |                                  |  /home/ubuntu        |
++------------------+                                  +----------------------+
 
 ## 🖼️ Suggested Images for the Repository
 
@@ -147,7 +144,6 @@ Add the following screenshots to an `images/` directory in your repository:
 ## 📷 SCP Command Execution
 ![SCP Command](images/scp-command.png)
 ```
-
 ---
 
 ## 🔒 Security Notes
