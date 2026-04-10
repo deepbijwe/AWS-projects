@@ -100,7 +100,7 @@ ls -l /home/ubuntu
 ---
 
 ## 📊 Command Flow Diagram
-+------------------+        SCP (Secure Copy)        +----------------------+
++------------------+         SCP (Secure Copy)        +----------------------+
 |  Local Machine   |  ----------------------------->  |  AWS EC2 Instance    |
 |                  |     Using .pem authentication    |                      |
 |  Linux.pub File  |                                  |  /home/ubuntu        |
