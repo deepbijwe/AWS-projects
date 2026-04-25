@@ -1,6 +1,6 @@
 # 🚀 Hosting a Website on Apache2 Server (AWS Ubuntu)
 
-## 🎯 Aim
+# 🎯 AIM
 
 To host a website on an Apache2 server using an AWS Ubuntu machine.
 
@@ -116,6 +116,6 @@ http://<public-ip>
 
 ## ✅ Conclusion
 
-You successfully hosted your website on an Apache server on AWS using an Ubuntu machine.
+You successfully hosted your application website on an Apache server on AWS using an Ubuntu machine.
 
 ---
